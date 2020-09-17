@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
   const location = search.value;
     message.textContent = "Loading..."
   axios
-    .get("http://localhost:3000/weather", {
+    .get("/weather", {
       params: {
         address: location,
       },
