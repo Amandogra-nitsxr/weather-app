@@ -1,5 +1,3 @@
-console.log("JS file");
-
 const form = document.querySelector("form");
 const search = document.querySelector("input");
 const message = document.querySelector('#message')
